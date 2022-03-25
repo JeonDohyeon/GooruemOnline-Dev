@@ -1,0 +1,19 @@
+/*
+cloud.css
+*/
+
+/*
+setup
+*/
+body {
+    background-color: rgb(163, 241, 255);
+}
+a.gooruem {
+    font-weight: bold;
+}
+a.gooruem:link {
+    color: rgb(0, 127, 177);
+}
+a.gooruem:visited {
+    color: rgb(62, 75, 80);
+}

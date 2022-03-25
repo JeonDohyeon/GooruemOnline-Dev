@@ -1,0 +1,50 @@
+/*
+index.css
+*/
+
+/*
+Import lines
+*/
+@font-face { font-family: 'NanumGothic';
+    src: local('NanumGothic'), url('/fonts/NanumGothic.eot');
+    src: url('/fonts/NanumGothic.eot') format('embedded-opentype'), /* IE Support */
+    url('/fonts/NanumGothic.woff') format('woff');
+}
+
+/*
+Setup
+*/
+* {
+    font-family: 'Nanum Gothic', sans-serif; /* sets font to 나눔고딕 */
+}
+body {
+    padding: 10px;
+    border: 5px;
+    margin: 5px;
+    min-width: 350px;
+}
+header {
+    text-align: center;
+}
+main {
+    border: 10px;
+}
+main > a {
+    padding: 5px;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+.information {
+    font-size: 1.05em;
+}
+a.ViewFile {
+    font-weight: 500;
+    font-size: 1.02em;
+}
+footer {
+    border: 10px dotted rgba(150, 150, 150, 0.637);
+}
