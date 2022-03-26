@@ -2,8 +2,6 @@
 <html lang=ko>
   <head>
     <meta charset="utf-8">
-    <!-- CSS served by my server -->
-    <!-- TODO: Copy the file to GitHub -->
     <link rel=stylesheet href="/index.css">
     <link rel=stylesheet href="/cloud.css">
     <title>구름 온라인 개발팀</title>
@@ -25,8 +23,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <style>
+      main {
+        font-size: 1.15em;
+      }
+      a.crowdin {
+        font-size: 1.25em;
+      }
+      p.info {
+        text-align: center;
+        font-size: 1.05em;
+      }
+      pre.legal {
+        font-size: 0.9em;
+        color: rgb(115,115,115);
+      }
+    </style>
     <!-- Favicon End -->
-    <!-- TODO: Change the http url to GitHub ones -->
   </head>
   <body>
     <header>
@@ -34,7 +47,7 @@
     </header>
     <main>
       <p class="information">
-        <a href="https://crwd.in/gooreum-online">
+        <a href="https://crwd.in/gooreum-online" class=crowdin>
           <embed src="https://support.crowdin.com/assets/logos/crowdin-logo-small-black.png"><br>
           번역 현황 안내
         </a><br>
@@ -75,12 +88,12 @@ Upgraded Netherite - server;
       </p>
     </main>
     <footer>
-      <p style="allign: center;">
+      <p class=info>
         구름 온라인 메인 홈페이지: <a href="https://gooruem.mcv.kr">바로가기</a><br>
         파일 다운로드(개발/임시): <a href="https://files.jdh5968.pe.kr/GooruemOnline">바로가기</a><br>
         <br>
       </p>
-      <div style="allign: left;">This site is served through GitHub.</div><div style="allign: right;">Copyright(C) 2022 GooruemOnline, All rights reserved.</div>
+      <pre class=legal>This site is served through GitHub.     Copyright(C) 2022 GooruemOnline, All rights reserved.</pre>
     </footer>
   </body>
 </html>
