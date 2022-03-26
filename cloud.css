@@ -17,7 +17,7 @@ a.gooruem:link {
 a.gooruem:visited {
     color: rgb(62, 75, 80);
 }
-p > pre {
+pre.tr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 3px dotted rgb(15, 15, 15);
