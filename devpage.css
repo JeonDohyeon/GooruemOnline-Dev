@@ -1,0 +1,52 @@
+main {
+    font-size: 1.15em;
+}
+a.crowdin {
+    font-size: 1.25em;
+}
+footer {
+    text-align: center;
+    font-size: 1.05em;
+}
+pre.legal {
+    font-size: 0.9em;
+    color: rgb(115,115,115);
+}
+pre.devteam {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/*
+Dev Team Signs
+*/
+pre.devteam > b {
+    font-size: 1.0em;
+}
+pre.devteam > b.management {
+    color:brown;
+}
+pre.devteam > b.dev {
+    color:coral;
+}
+pre.devteam > b.planning {
+    color:pink;
+}
+pre.devteam > b.build {
+    color:cadetblue;
+}
+pre.devteam > b.design {
+    color:darkcyan;
+}
+pre.devteam > b.guide {
+    color:blueviolet;
+}
+pre.devteam > b.aw {
+    color:gray;
+}
+pre.devteam > b.cnpc {
+    color:darkseagreen;
+}
+pre.devteam > b.betatester {
+    color:forestgreen;
+}
